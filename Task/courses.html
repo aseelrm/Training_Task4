@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8" data-sid="h-ms">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" data-sid="h-vp">
+    <title data-sid="page-title">All Courses - Shifra Training Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" data-sid="pc-1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-sid="pc-2">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet" data-sid="fonts">
+    <link rel="stylesheet" href="css/styles.css" data-sid="css-main">
+</head>
+<body data-sid="root">
+
+<header class="header" data-sid="hdr">
+    <div class="container" data-sid="wrap">
+        <nav class="nav" role="navigation" aria-label="Main Nav" data-sid="nav">
+            <div class="logo" data-sid="brand">shifra</div>
+
+            <ul id="navMenu" class="nav-menu" data-sid="menu">
+                <li data-sid="li-1"><a href="index.html" class="nav-link">Home</a></li>
+                <li data-sid="li-2"><a href="courses.html" class="nav-link">Courses</a></li>
+                <li data-sid="li-3"><a href="my-path.html" class="nav-link">My Path</a></li>
+                <li data-sid="li-4"><a href="about.html" class="nav-link">About</a></li>
+                <li data-sid="li-5"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions" data-sid="nav-actions">
+                <a class="nav-btn nav-login" href="login.html" data-sid="login">Login</a>
+                <a class="btn btn-primary" href="signup.html" data-sid="signup">Sign Up</a>
+            </div>
+
+            <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle menu" data-sid="mobile-btn" type="button">
+                <span data-sid="mb-1"></span><span data-sid="mb-2"></span><span data-sid="mb-3"></span>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<main data-sid="main" class="main-content">
+    <section class="page-header" data-sid="ph">
+        <h1 data-sid="ph-h1">All Courses</h1>
+        <p data-sid="ph-p">Discover the perfect course to advance your career</p>
+    </section>
+
+    <section class="filters-section" data-sid="filters">
+        <div class="filters-grid" data-sid="filters-grid">
+            <div class="filter-group" data-sid="fg-1">
+                <label for="category">Category</label>
+                <select id="category" data-sid="sel-cat">
+                    <option>All Categories</option>
+                    <option>Development</option>
+                    <option>Data Science</option>
+                    <option>Design</option>
+                    <option>Business</option>
+                </select>
+            </div>
+
+            <div class="filter-group" data-sid="fg-2">
+                <label for="level">Level</label>
+                <select id="level" data-sid="sel-level">
+                    <option>All Levels</option>
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                </select>
+            </div>
+
+            <div class="filter-group" data-sid="fg-3">
+                <label for="format1">Format</label>
+                <select id="format1" data-sid="sel-format1">
+                    <option>All Formats</option>
+                    <option>Online</option>
+                    <option>In-Person</option>
+                    <option>Hybrid</option>
+                </select>
+            </div>
+
+            <div class="filter-group" data-sid="fg-4">
+                <label for="format2">Format</label>
+                <select id="format2" data-sid="sel-format2">
+                    <option>Most Popular</option>
+                    <option>Newest</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-section" data-sid="courses">
+        <div class="courses-grid" data-sid="grid">
+            <div class="course-card" data-sid="card-1">
+                <div class="course-image-wrapper" data-sid="img-wrap-1">
+                    <img class="course-img" src="images/React.jpg" alt="Advanced React Development" data-sid="img-1">
+                    <span class="rating-badge" data-sid="rating-1">⭐ 4.7</span>
+                </div>
+                <div class="course-content" data-sid="content-1">
+                    <h3 class="course-title" data-sid="title-1">Advanced React Development</h3>
+                    <p class="course-description" data-sid="desc-1">Master modern React patterns, hooks, and state management with hands-on projects.</p>
+
+                    <div class="course-footer" data-sid="footer-1">
+                        <div class="course-meta" data-sid="meta-1">
+                            <span class="course-instructor" data-sid="inst-1">Dr. Michael Chen</span>
+                            <span class="course-duration" data-sid="dur-1">8 weeks</span>
+                        </div>
+                        <div class="course-tags" data-sid="tags-1">
+                            <span class="tag tag-beginner" data-sid="tag-1">Beginner</span>
+                            <span class="tag tag-in-person" data-sid="tag-2">In-person</span>
+                        </div>
+                        <div class="course-actions" data-sid="actions-1">
+                            <a class="btn-details" href="course-details.html" data-sid="details-1">Details</a>
+                            <a class="btn-book" href="book.html" data-sid="book-1">Book</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card" data-sid="card-2">
+                <div class="course-image-wrapper" data-sid="img-wrap-2">
+                    <img class="course-img" src="images/Data.jpg" alt="Data Science Fundamentals" data-sid="img-2">
+                    <span class="rating-badge" data-sid="rating-2">⭐ 4.7</span>
+                </div>
+                <div class="course-content" data-sid="content-2">
+                    <h3 class="course-title" data-sid="title-2">Data Science Fundamentals</h3>
+                    <p class="course-description" data-sid="desc-2">Learn Python, statistics, and machine learning for data-driven decision making.</p>
+
+                    <div class="course-footer" data-sid="footer-2">
+                        <div class="course-meta" data-sid="meta-2">
+                            <span class="course-instructor" data-sid="inst-2">Dr. Michael Chen</span>
+                            <span class="course-duration" data-sid="dur-2">8 weeks</span>
+                        </div>
+                        <div class="course-tags" data-sid="tags-2">
+                            <span class="tag tag-beginner" data-sid="tag-3">Beginner</span>
+                            <span class="tag tag-online" data-sid="tag-4">Online</span>
+                        </div>
+                        <div class="course-actions" data-sid="actions-2">
+                            <button class="btn-details" data-sid="btn-details-2">Details</button>
+                            <button class="btn-book" data-sid="btn-book-2">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card" data-sid="card-3">
+                <div class="course-image-wrapper" data-sid="img-wrap-3">
+                    <img class="course-img" src="images/UI.jpg" alt="UX/UI Design Masterclass" data-sid="img-3">
+                    <span class="rating-badge" data-sid="rating-3">⭐ 4.7</span>
+                </div>
+                <div class="course-content" data-sid="content-3">
+                    <h3 class="course-title" data-sid="title-3">UX/UI Design Masterclass</h3>
+                    <p class="course-description" data-sid="desc-3">Create intuitive user experiences with design thinking and prototyping tools.</p>
+
+                    <div class="course-footer" data-sid="footer-3">
+                        <div class="course-meta" data-sid="meta-3">
+                            <span class="course-instructor" data-sid="inst-3">Dr. Michael Chen</span>
+                            <span class="course-duration" data-sid="dur-3">8 weeks</span>
+                        </div>
+                        <div class="course-tags" data-sid="tags-3">
+                            <span class="tag tag-advanced" data-sid="tag-5">Advanced</span>
+                            <span class="tag tag-online" data-sid="tag-6">Online</span>
+                        </div>
+                        <div class="course-actions" data-sid="actions-3">
+                            <button class="btn-details" data-sid="btn-details-3">Details</button>
+                            <button class="btn-book" data-sid="btn-book-3">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card" data-sid="card-4">
+                <div class="course-image-wrapper" data-sid="img-wrap-4">
+                    <img class="course-img" src="images/coursephoto1.jpg" alt="Data Science Fundamentals" data-sid="img-4">
+                    <span class="rating-badge" data-sid="rating-4">⭐ 4.7</span>
+                </div>
+                <div class="course-content" data-sid="content-4">
+                    <h3 class="course-title" data-sid="title-4">Data Science Fundamentals</h3>
+                    <p class="course-description" data-sid="desc-4">Learn Python, statistics, and machine learning for data-driven decision making.</p>
+
+                    <div class="course-footer" data-sid="footer-4">
+                        <div class="course-meta" data-sid="meta-4">
+                            <span class="course-instructor" data-sid="inst-4">Dr. Michael Chen</span>
+                            <span class="course-duration" data-sid="dur-4">8 weeks</span>
+                        </div>
+                        <div class="course-tags" data-sid="tags-4">
+                            <span class="tag tag-data" data-sid="tag-7">Data</span>
+                            <span class="tag tag-online" data-sid="tag-8">Online</span>
+                        </div>
+                        <div class="course-actions" data-sid="actions-4">
+                            <button class="btn-details" data-sid="btn-details-4">Details</button>
+                            <button class="btn-book" data-sid="btn-book-4">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card" data-sid="card-5">
+                <div class="course-image-wrapper" data-sid="img-wrap-5">
+                    <img class="course-img" src="images/coursephoto2.jpg" alt="Data Science Fundamentals" data-sid="img-5">
+                    <span class="rating-badge" data-sid="rating-5">⭐ 4.7</span>
+                </div>
+                <div class="course-content" data-sid="content-5">
+                    <h3 class="course-title" data-sid="title-5">Data Science Fundamentals</h3>
+                    <p class="course-description" data-sid="desc-5">Learn Python, statistics, and machine learning for data-driven decision making.</p>
+
+                    <div class="course-footer" data-sid="footer-5">
+                        <div class="course-meta" data-sid="meta-5">
+                            <span class="course-instructor" data-sid="inst-5">Dr. Michael Chen</span>
+                            <span class="course-duration" data-sid="dur-5">8 weeks</span>
+                        </div>
+                        <div class="course-tags" data-sid="tags-5">
+                            <span class="tag tag-data" data-sid="tag-9">Data</span>
+                            <span class="tag tag-online" data-sid="tag-10">Online</span>
+                        </div>
+                        <div class="course-actions" data-sid="actions-5">
+                            <button class="btn-details" data-sid="btn-details-5">Details</button>
+                            <button class="btn-book" data-sid="btn-book-5">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card" data-sid="card-6">
+                <div class="course-image-wrapper" data-sid="img-wrap-6">
+                    <img class="course-img" src="images/coursephoto2.jpg" alt="UX/UI Design Masterclass" data-sid="img-6">
+                    <span class="rating-badge" data-sid="rating-6">⭐ 4.7</span>
+                </div>
+                <div class="course-content" data-sid="content-6">
+                    <h3 class="course-title" data-sid="title-6">UX/UI Design Masterclass</h3>
+                    <p class="course-description" data-sid="desc-6">Create intuitive user experiences with design thinking and prototyping tools.</p>
+
+                    <div class="course-footer" data-sid="footer-6">
+                        <div class="course-meta" data-sid="meta-6">
+                            <span class="course-instructor" data-sid="inst-6">Dr. Michael Chen</span>
+                            <span class="course-duration" data-sid="dur-6">8 weeks</span>
+                        </div>
+                        <div class="course-tags" data-sid="tags-6">
+                            <span class="tag tag-advanced" data-sid="tag-11">Advanced</span>
+                            <span class="tag tag-online" data-sid="tag-12">Online</span>
+                        </div>
+                        <div class="course-actions" data-sid="actions-6">
+                            <button class="btn-details" data-sid="btn-details-6">Details</button>
+                            <button class="btn-book" data-sid="btn-book-6">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer" id="contact" data-sid="footer">
+    <div class="container" data-sid="footer-wrap">
+        <div class="footer-content" data-sid="fcontent">
+            <div class="footer-brand" data-sid="fbrand">
+                <div class="logo" data-sid="flogo">shifra</div>
+                <p class="footer-description" data-sid="fdesc">Empowering your learning journey with AI-driven course recommendations and personalized training paths.</p>
+            </div>
+
+            <div class="footer-links" data-sid="flinks">
+                <h4 class="footer-heading" data-sid="fl-h">QUICK LINKS</h4>
+                <ul data-sid="fl-ul">
+                    <li data-sid="fl-1"><a href="courses.html">All Courses</a></li>
+                    <li data-sid="fl-2"><a href="my-path.html">My Learning Path</a></li>
+                    <li data-sid="fl-3"><a href="about.html">About Us</a></li>
+                    <li data-sid="fl-4"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social" data-sid="fs">
+                <h4 class="footer-heading">FOLLOW US</h4>
+                <div class="social-icons" data-sid="fs-icons">
+                    <a href="https://www.facebook.com/codecenterfortrainiganddevelopment" aria-label="Facebook" data-sid="fs-1">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" data-sid="fs-svg"><path d="M9 8H6v4h3v12h5V12h3.6L18 8h-4V6.3c0-1 .1-1.3 1.1-1.3H18V0h-3.8C10.6 0 9 1.6 9 4.6V8z"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/code_.center/" aria-label="Instagram" data-sid="fs-2">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" data-sid="fs-svg-ig"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1s-3.6 0-4.9-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8c.1-3.2 1.7-4.8 4.9-4.9 1.3-.1 1.6-.1 4.9-.1z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="Google" data-sid="fs-3">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" data-sid="fs-svg-g"><path d="M12.5 10.5v3.5h5.3c-.2 1.3-1.6 3.9-5.3 3.9-3.2 0-5.8-2.6-5.8-5.9s2.6-5.9 5.8-5.9c1.8 0 3 .8 3.7 1.4l2.8-2.7C16.8 2.7 14.8 1.5 12.5 1.5 7 1.5 2.5 6 2.5 11.5S7 21.5 12.5 21.5c6 0 10-4.2 10-10.2 0-.7-.1-1.2-.1-1.8h-9.9z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom" data-sid="f-bottom">
+            <p data-sid="copyright">&copy; 2025 Shifra Training Center. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script data-sid="site-script">
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    mobileMenuBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.course-card').forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'opacity 0.5s, transform 0.5s';
+        observer.observe(card);
+    });
+</script>
+</body>
+</html>

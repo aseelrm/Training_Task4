@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-sid="root-signup-01">
+<head data-sid="head-signup-01">
+    <meta charset="UTF-8" data-sid="m-charset-signup">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" data-sid="m-vp-signup">
+    <link rel="stylesheet" href="css/styles.css" data-sid="css-signup-01">
+    <title data-sid="title-signup-01">Sign Up - Shifra Training Center</title>
+</head>
+<body data-sid="body-signup-01">
+
+<header class="header" data-sid="header-signup-01">
+    <div class="container" data-sid="container-signup-01">
+        <nav class="nav" role="navigation" aria-label="Main Navigation" data-sid="nav-signup-01">
+            <div class="logo" data-sid="logo-signup-01">shifra</div>
+
+            <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle menu" type="button" data-sid="mobile-signup-01">
+                <span data-sid="mb-span-1"></span><span data-sid="mb-span-2"></span><span data-sid="mb-span-3"></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu" data-sid="menu-signup-01">
+                <li data-sid="menu-li-1"><a href="index.html" class="nav-link">Home</a></li>
+                <li data-sid="menu-li-2"><a href="courses.html" class="nav-link">Courses</a></li>
+                <li data-sid="menu-li-3"><a href="my-path.html" class="nav-link">My Path</a></li>
+                <li data-sid="menu-li-4"><a href="about.html" class="nav-link">About</a></li>
+                <li data-sid="menu-li-5"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions" data-sid="nav-actions-signup">
+                <a href="login.html" class="nav-btn nav-login" data-sid="login-signup">Login</a>
+                <a href="signup.html" class="btn btn-primary" data-sid="signup-signup">Sign Up</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="auth-page" data-sid="main-auth-01">
+    <div class="container" data-sid="auth-wrap-01">
+        <div class="auth-container" data-sid="auth-container-01">
+            <div class="auth-header" data-sid="auth-header-01">
+                <h1>Create Account</h1>
+                <p>Join Shifra and start your learning journey</p>
+            </div>
+
+            <form class="auth-form" id="signupForm" data-sid="signup-form-01">
+                <div class="form-row" data-sid="form-row-01">
+                    <div class="form-group" data-sid="fg-firstname">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name" required data-sid="input-firstname">
+                    </div>
+                    <div class="form-group" data-sid="fg-lastname">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required data-sid="input-lastname">
+                    </div>
+                </div>
+
+                <div class="form-group" data-sid="fg-email">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required data-sid="input-email">
+                </div>
+
+                <div class="form-group" data-sid="fg-password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required data-sid="input-password">
+                </div>
+
+                <div class="form-group" data-sid="fg-confirm">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required data-sid="input-confirm">
+                </div>
+
+                <div class="form-checkbox" data-sid="fg-terms">
+                    <input type="checkbox" id="terms" name="terms" required data-sid="input-terms">
+                    <label for="terms">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+
+                <button type="submit" class="btn-primary btn-full" data-sid="btn-signup">Sign Up</button>
+
+                <div class="auth-divider" data-sid="auth-divider-01">
+                    <span>Or sign up with</span>
+                </div>
+
+                <div class="social-buttons" data-sid="social-buttons-01">
+                    <button type="button" class="social-btn google-btn" data-sid="social-google-01">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-sid="svg-google-01">
+                            <path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.615z" fill="#4285F4"/>
+                            <path d="M9.003 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.96v2.332C2.44 15.983 5.485 18 9.003 18z" fill="#34A853"/>
+                            <path d="M3.964 10.712c-.18-.54-.282-1.117-.282-1.71 0-.593.102-1.17.282-1.71V4.96H.957C.347 6.175 0 7.55 0 9.002c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/>
+                            <path d="M9.003 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.464.891 11.426 0 9.002 0 5.485 0 2.44 2.017.96 4.958L3.967 7.29c.708-2.127 2.692-3.71 5.036-3.71z" fill="#EA4335"/>
+                        </svg>
+                        Google
+                    </button>
+
+                    <button type="button" class="social-btn facebook-btn" data-sid="social-fb-01">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-sid="svg-fb-01">
+                            <path d="M18 9c0-4.97-4.03-9-9-9S0 4.03 0 9c0 4.491 3.291 8.215 7.594 8.891V11.64H5.309V9h2.285V7.016c0-2.255 1.343-3.501 3.4-3.501.985 0 2.015.176 2.015.176v2.215h-1.136c-1.118 0-1.467.694-1.467 1.406V9h2.496l-.399 2.64h-2.097v6.251C14.709 17.215 18 13.491 18 9z" fill="#1877F2"/>
+                        </svg>
+                        Facebook
+                    </button>
+                </div>
+
+                <div class="auth-footer" data-sid="auth-footer-01">
+                    Already have an account? <a href="login.html">Sign in here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer class="footer" id="contact" data-sid="footer-signup-01">
+    <div class="container" data-sid="footer-wrap-signup">
+        <div class="footer-content" data-sid="footer-content-signup">
+            <div class="footer-brand" data-sid="footer-brand-signup">
+                <div class="logo" data-sid="footer-logo-signup">shifra</div>
+                <p class="footer-description" data-sid="footer-desc-signup">Empowering your learning journey with AI-driven course recommendations and personalized training paths.</p>
+            </div>
+
+            <div class="footer-links" data-sid="footer-links-signup">
+                <h4 class="footer-heading">QUICK LINKS</h4>
+                <ul data-sid="footer-ul-signup">
+                    <li><a href="courses.html">All Courses</a></li>
+                    <li><a href="my-path.html">My Learning Path</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social" data-sid="footer-social-signup">
+                <h4 class="footer-heading">FOLLOW US</h4>
+                <div class="social-icons" data-sid="footer-social-icons-signup">
+                    <a href="https://www.facebook.com/codecenterfortrainiganddevelopment" aria-label="Facebook" data-sid="fs-signup-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" data-sid="fs-svg-signup-1"><path d="M9 8H6v4h3v12h5V12h3.6L18 8h-4V6.3c0-1 .1-1.3 1.1-1.3H18V0h-3.8C10.6 0 9 1.6 9 4.6V8z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/code_.center/" aria-label="Instagram" data-sid="fs-signup-2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" data-sid="fs-svg-signup-2"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1s-3.6 0-4.9-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8c.1-3.2 1.7-4.8 4.9-4.9 1.3-.1 1.6-.1 4.9-.1z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Google" data-sid="fs-signup-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" data-sid="fs-svg-signup-3"><path d="M12.5 10.5v3.5h5.3c-.2 1.3-1.6 3.9-5.3 3.9-3.2 0-5.8-2.6-5.8-5.9s2.6-5.9 5.8-5.9c1.8 0 3 .8 3.7 1.4l2.8-2.7C16.8 2.7 14.8 1.5 12.5 1.5 7 1.5 2.5 6 2.5 11.5S7 21.5 12.5 21.5c6 0 10-4.2 10-10.2 0-.7-.1-1.2-.1-1.8h-9.9z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom" data-sid="footer-bottom-signup">
+            <p data-sid="footer-copy-signup">&copy; 2025 Shifra Training Center. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js" data-sid="script-signup-01"></script>
+
+<script data-sid="inline-signup-01">
+    document.getElementById('signupForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirmPassword').value;
+
+        if (password !== confirmPassword) {
+            alert('Passwords do not match!');
+            return;
+        }
+
+        alert('Sign up successful! (This is a demo)');
+    });
+</script>
+</body>
+</html>
